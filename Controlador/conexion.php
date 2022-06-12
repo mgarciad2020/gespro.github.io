@@ -16,7 +16,6 @@ class Conexion{
         $this->user = 'root';
         $this->password = 'root';
         $this->charset = 'utf8mb4';
-
     }
 
     /**

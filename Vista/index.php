@@ -12,7 +12,7 @@ include_once '../Controlador/gestor.php';
 	if($_SERVER["REQUEST_METHOD"] == 'POST'){
 		function login(){
 			if($_POST['correo'] == "root@administrador.com"  && $_POST['spassword'] == 'root'){
-				header('Location: /Gestor/Vista/Administrador/dashboardadmin.php');
+				header('Location: /gespro.github.io/Vista/Administrador/dashboardadmin.php');
 			}else {
 				loginSQL($_POST['correo'], $_POST['spassword']);	
 			}
@@ -26,7 +26,7 @@ include_once '../Controlador/gestor.php';
 			if(count($result) == 1){
 				$_SESSION['usuario'] = $result[0]['usuario'];
 				$_SESSION['id_trabajador'] = $result[0]['id_trabajador'];
-				header('Location: /Gestor/Vista/Trabajador/dashboarduser.php');
+				header('Location: /gespro.github.io/Vista/Trabajador/dashboarduser.php');
 			}
 		}
 		login();

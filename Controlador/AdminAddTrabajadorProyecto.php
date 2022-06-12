@@ -21,5 +21,5 @@ then calling the function `addTrabajadorProyecto` with the array as a parameter.
     }
 
     /* Redirecting the user to the page `dashboardadmin.php` after the data has been inserted. */
-    header("Location: /Gestor/Vista/administrador/dashboardadmin.php")
+    header("Location: /gespro.github.io/Vista/administrador/dashboardadmin.php")
 ?>

@@ -22,5 +22,5 @@
     }
 
     /* Redirecting the user to the dashboardadmin.php page. */
-    header("Location: /Gestor/Vista/administrador/dashboardadmin.php")
+    header("Location: /gespro.github.io/Vista/administrador/dashboardadmin.php")
 ?>

@@ -31,5 +31,5 @@
     }
 
     /* Redirecting the user to the dashboardproyectos.php page. */
-    header("Location: /Gestor/Vista/Administrador/dashboardproyectos.php")
+    header("Location: /gespro.github.io/Vista/Administrador/dashboardproyectos.php")
 ?>

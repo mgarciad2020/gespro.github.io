@@ -20,4 +20,4 @@
         $api->error('Error al llamar a la API');
     }
 
-    header("Location: /Gestor/Vista/Trabajador/dashboarduser.php")?>
+    header("Location: /gespro.github.io/Vista/Trabajador/dashboarduser.php")?>

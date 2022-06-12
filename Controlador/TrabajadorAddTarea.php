@@ -24,5 +24,5 @@ the function addTarea. */
     }
 
 /* Redirecting the user to the dashboarduser.php page. */
-    header("Location: /Gestor/Vista/Trabajador/dashboarduser.php");
+    header("Location: /gespro.github.io/Vista/Trabajador/dashboarduser.php");
 ?>

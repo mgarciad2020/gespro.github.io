@@ -21,5 +21,5 @@ include_once 'apigestor.php';
     }
 
    /* Redirecting the user to the dashboardadmin.php page. */
-    header("Location: /Gestor/Vista/Administrador/dashboardadmin.php");
+    header("Location: /gespro.github.io/Vista/Administrador/dashboardadmin.php");
 ?>
