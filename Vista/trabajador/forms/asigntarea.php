@@ -98,7 +98,7 @@
                     <input type="date" class="form-control" name="fecha_fin" aria-describedby="emailHelp" required id="fecha_fin">
                 </div>
                 <br>
-                <button class="btn btn-primary" style="width: 15%;">Asignar</button>
+                <button class="btn btn-primary" style="width: 15%;">Asignar Tarea</button>
             </div>
             <br>
         </form>

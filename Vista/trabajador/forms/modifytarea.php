@@ -112,7 +112,7 @@
                 </div>
                 <br>
                 <div class="button-group" align="center">
-                    <input type="submit" value="Modificar Trabajador" class="btn btn-primary" style="width: 15%;">
+                    <input type="submit" value="Modificar Tarea" class="btn btn-primary" style="width: 15%;">
                     
                 </div>
             </form>

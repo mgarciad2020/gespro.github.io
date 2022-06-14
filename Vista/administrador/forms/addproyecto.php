@@ -35,7 +35,7 @@
             <br>
 
             <div class="button-group">
-                <input type="submit" value="Agregar Trabajador" class="btn btn-primary" style="width: 15%;">
+                <input type="submit" value="Agregar Proyecto" class="btn btn-primary" style="width: 15%;">
             </div>
         </div>
         

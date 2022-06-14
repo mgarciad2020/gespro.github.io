@@ -140,9 +140,6 @@
               </span>
             </a>
             <ul class="treeview-menu">
-            <li>
-              <a href="#" data-toggle="control-sidebar"><i class="fa fa-circle-o"></i>Configurar Pantalla</a>
-            </li>
             <li><a href="../../Vista"><i class="fa fa-window-close"></i>Cerrar Sesion</a></li>
           </ul>
           </li>
