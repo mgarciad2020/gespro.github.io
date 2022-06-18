@@ -63,7 +63,8 @@ function cargarProyectos() {
             }else{
                 cadena += '<td>' + proyecto[key][i]['fecha_fin'] + '</td>';
             }
-            cadena += '<td> <a class="btn btn-block btn-warning btn-xs href="../Administrador/dashboardmodifyproyecto.php">Modificar</a> <a class="btn btn-block btn-danger btn-xs" href="../../Controlador/AdminDeleteProyecto.php?id='+ proyecto[key][i]['id_proyecto'] + '">Eliminar</a> </td>';
+            
+            cadena += '<td> <a class="btn btn-block btn-danger btn-xs" href="../../Controlador/AdminDeleteProyecto.php?id='+ proyecto[key][i]['id_proyecto'] + '">Eliminar</a> </td>';
             cadena += '</tr>';
         }
     }

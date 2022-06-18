@@ -17,6 +17,7 @@
             'estado'=> 'Activo'
         );
         $api->addTrabajador($item);
+        
     }else{
         $api->error('Error al llamar a la API');
     }

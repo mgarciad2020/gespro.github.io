@@ -77,8 +77,7 @@
             <form class="form-horizontal  row" method="GET" action="../../Controlador/TrabajadorModifyTarea.php">
                 <br><br>
                 <div class="mb-3">
-                    <label class="form-label">Id tarea</label>
-                    <input type="text" class="form-control" name="id_tarea" aria-describedby="emailHelp" required id="id_tarea" readonly>
+                    <input type="hidden" class="form-control" name="id_tarea" aria-describedby="emailHelp" required id="id_tarea" readonly>
                 </div>
                 <div class="mb-3">
                     <label class="form-label">Nombre</label>
@@ -107,8 +106,7 @@
                 </div>
 
                 <div class="mb-3">
-                    <label class="form-label">Usuario</label>
-                    <input type="text" name="usuario" class="form-control" value="<?php echo $user ?>"  aria-describedby="emailHelp" readonly>
+                    <input type="hidden" name="usuario" class="form-control" value="<?php echo $user ?>"  aria-describedby="emailHelp" readonly>
                 </div>
                 <br>
                 <div class="button-group" align="center">

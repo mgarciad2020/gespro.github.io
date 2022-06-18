@@ -92,8 +92,7 @@
             </div>
 
             <div class="mb-3">
-                <label class="form-label">Autor</label>
-                <input type="text" name="usuario" class="form-control" value="<?php echo $user ?>" readonly>
+                <input type="hidden" name="usuario" class="form-control" value="<?php echo $user ?>" readonly>
                 <br>
             </div>
            

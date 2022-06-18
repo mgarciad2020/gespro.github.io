@@ -63,7 +63,9 @@ function cargarEmpleados() {
             cadena += '<td>' + trabajadores[key][i]['usuario'] + '</td>';
             cadena += '<td>' + trabajadores[key][i]['estado'] + '</td>';
             //../../Controlador/AdminModifyTrabajador.php?nombre='+ trabajadores[key][i]['nombre'] + '&apellidos=' + trabajadores[key][i]['apellidos'] + '&dni=' + trabajadores[key][i]['dni']+ '&email=' + trabajadores[key][i]['email'] + '&usuario='+ trabajadores[key][i]['usuario'] + '&contrasena='+ trabajadores[key][i]['contrasena'] +'&estado='+ trabajadores[key][i]['estado'] +'&id_trabajador='+ trabajadores[key][i]['id_trabajador'] + '">Modificar</a>
-            cadena += '<td> <a class="btn btn-block btn-warning btn-xs" href="../Administrador/dashboardmodifytrabajador.php">Modificar</a> <a class="btn btn-block btn-danger btn-xs" href="../../Controlador/AdminDeleteTrabajador.php?id='+ trabajadores[key][i]['id_trabajador'] + '">Eliminar</a> </td>';            cadena += '</tr>';
+            //<a class="btn btn-block btn-warning btn-xs" href="../Administrador/dashboardmodifytrabajador.php">Modificar</a>
+            cadena += '<td>  <a class="btn btn-block btn-danger btn-xs" href="../../Controlador/AdminDeleteTrabajador.php?id='+ trabajadores[key][i]['id_trabajador'] + '">Eliminar</a> </td>';            
+            cadena += '</tr>';
         }
     }
     cadena += '</tbody>';

@@ -44,7 +44,7 @@
 
             <div class="mb-3">
                 <label class="form-label">Contraseña</label>
-                <input type="password" class="form-control" name="contrasena" aria-describedby="emailHelp" required="true">
+                <input type="password" class="form-control" name="contrasena" pattern="^(?=.*[A-Z].*[A-Z])(?=.*[!@#$&*])(?=.*[0-9].*[0-9])(?=.*[a-z].*[a-z].*[a-z]).{8}$*" title="Una contraseña válida es un conjuto de caracteres, donde cada uno consiste de una letra mayúscula o minúscula, o un dígito. La contraseña debe empezar con una letra y contener al menor un dígito" aria-describedby="emailHelp" required="true">
             </div>
 
             <br>

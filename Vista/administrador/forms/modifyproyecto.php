@@ -71,11 +71,9 @@
     
     <div class="container margin-bottom">
         <form class="form-horizontal  row" method="GET" action="../../Controlador/AdminModifyProyecto.php">
-            <br><br>
-
+            
             <div class="mb-3">
-                <label class="form-label">Id Proyecto</label>
-                <input type="text" class="form-control" name="id_proyecto" aria-describedby="emailHelp" required readonly id="id_proyecto">
+                <input type="hidden" class="form-control" name="id_proyecto" aria-describedby="emailHelp" required readonly id="id_proyecto">
             </div>
 
             <div class="mb-3">

@@ -66,7 +66,7 @@
             <form class="form-horizontal  row">
                 <br><br>
                 <div class="mb-3">
-                    <label class="form-label">Id Trabajador</label>
+                    <label class="form-label">Nombre del Trabajador</label>
                     <select class="form-control" name="lista" id="AllIdByTrabajador">
                     </select>
                     <br>
@@ -77,10 +77,8 @@
     </div>
     <div class="container margin-bottom">
             <form class="form-horizontal  row" method="GET" action="../../Controlador/AdminModifyTrabajador.php">
-                <br><br>
                 <div class="mb-3">
-                    <label class="form-label">Id trabajador</label>
-                    <input type="text" class="form-control" name="id_trabajador" aria-describedby="emailHelp" required id="id_trabajador" readonly>
+                  <input type="hidden" class="form-control" name="id_trabajador" aria-describedby="emailHelp" required id="id_trabajador" readonly>
                 </div>
                 <div class="mb-3">
                     <label class="form-label">Nombre</label>

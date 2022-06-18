@@ -100,7 +100,7 @@ class Gestor extends Conexion{
      * @return The query object.
      */
     function nuevoTrabajador($trabajador){
-        $query = $this->connect()->prepare('INSERT INTO TRABAJADOR (NOMBRE, APELLIDOS, DNI, EMAIL, USUARIO, CONTRASENA, ESTADO) VALUES (:nombre, :apellidos, :dni, :email, :usuario, :contrasena, :estado)');
+        $query = $this->connect()->prepare('INSERT IGNORE INTO TRABAJADOR (NOMBRE, APELLIDOS, DNI, EMAIL, USUARIO, CONTRASENA, ESTADO) VALUES (:nombre, :apellidos, :dni, :email, :usuario, :contrasena, :estado)');
         $query->execute(['nombre' => $trabajador['nombre'], 'apellidos' => $trabajador['apellidos'],  'dni' => $trabajador['dni'], 'email' => $trabajador['email'], 'usuario' => $trabajador['usuario'], 'contrasena' => $trabajador['contrasena'], 'estado' => $trabajador['estado']]);
         return $query;
     }
