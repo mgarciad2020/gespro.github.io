@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script>
-        ajaxRequest();
+      ajaxRequest();
         function ajaxRequest() {
+            console.log("Esto se eejecuta al guna vez");
             var link = "../../Controlador/TrabajadorCargaTareas.php?getAllTareas=true";
             var xmlHttp = new XMLHttpRequest();
             xmlHttp.onreadystatechange = function() {

@@ -31,7 +31,7 @@ $FINALIZADO = RecuperarByEstado($id, "Finalizado");
         <tr>
             <?php
                 foreach ($PENDIENTE as $key => $value) {
-                  echo '<a style="color:black; text-decoration:none; font-size:18px;" href="../../../Gestor/Vista/Trabajador/dashboardmodifytarea.php">'.$value['NOMBRE'].'</a> <br><br>';
+                  echo '<a style="color:black; text-decoration:none; font-size:18px;" href="../../../gespro.github.io/Vista//Trabajador/dashboardmodifytarea.php">'.$value['NOMBRE'].'</a> <br><br>';
                 }
             ?>
         </tr>
@@ -42,7 +42,7 @@ $FINALIZADO = RecuperarByEstado($id, "Finalizado");
         <tr>
             <?php
                 foreach ($PROCESANDO as $key => $value) {
-                  echo '<a style="color:black; text-decoration:none; font-size:18px;" href="../../../Gestor/Vista/Trabajador/dashboardmodifytarea.php">'.$value['NOMBRE'].'</a> <br><br>';
+                  echo '<a style="color:black; text-decoration:none; font-size:18px;" href="../../../gespro.github.io/Vista/Trabajador/dashboardmodifytarea.php">'.$value['NOMBRE'].'</a> <br><br>';
                 }
 
             ?>
@@ -54,7 +54,7 @@ $FINALIZADO = RecuperarByEstado($id, "Finalizado");
         <tr>
             <?php
                 foreach ($FINALIZADO as $key => $value) {
-                  echo '<a style="color:black; text-decoration:none; font-size:18px;" href="../../../Gestor/Vista/Trabajador/dashboardmodifytarea.php">'.$value['NOMBRE'].'</a> <br><br>';
+                  echo '<a style="color:black; text-decoration:none; font-size:18px;" href="../../../gespro.github.io/Vista/Trabajador/dashboardmodifytarea.php">'.$value['NOMBRE'].'</a> <br><br>';
                 }
 
             ?>
